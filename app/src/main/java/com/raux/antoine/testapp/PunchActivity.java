@@ -41,6 +41,7 @@ public class PunchActivity extends ActionBarActivity {
                 public void onConnectionStateChange(BluetoothGatt gatt, int status,
                                                     int newState) {
 
+                    //Test
                     Log.i(TAG, "onConnectionStateChange: "+newState);
 
                     if (newState == BluetoothProfile.STATE_CONNECTED) {
